@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  FinalProjectTemplate
 //
 //  Created by Admin on 28.10.15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface TableViewController : UITableViewController
+@property (nonatomic, strong) NSArray *labelText;
 @end
-
